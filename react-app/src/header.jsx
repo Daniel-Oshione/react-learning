@@ -1,17 +1,12 @@
+import pfp from './assets/pfp.png'
+
 function Header(){
 return(
-    <header>
-        <nav>
-            Header
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <div className="card">
+            <img src={pfp} alt="daniel image"/>
+            <h2>Daniel</h2>
+            <p>Bro majors csc 💀</p>
+        </div>
 );
 }
 
