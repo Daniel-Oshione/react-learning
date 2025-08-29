@@ -1,5 +1,6 @@
 // import pfp from './assets/images/pfp.png'
 import logo from './assets/images/logo.svg'
+import { Link } from 'react-router-dom'
 
 function Header(){
 return(
@@ -13,11 +14,11 @@ return(
             <nav className="navBar">
              <img src={logo} alt={logo + "company logo"} />
              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">New</a></li>
-                <li><a href="#">Popular</a></li>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">Categories</a></li>
+                <li><Link to="/#home">Home</Link></li>
+                <li><Link to="/#new">New</Link></li>
+                <li><Link to="/#popular">Popular</Link></li>
+                <li><Link to="/#trending">Trending</Link></li>
+                <li><Link to="/#categories">Categories</Link></li>
              </ul>
             </nav>
         </header>
