@@ -1,0 +1,1 @@
+:root{font-family:Inter,system-ui,Avenir,Helvetica,Arial,sans-serif}.navBar{display:flex;align-items:center;justify-content:space-between;padding:30px}.navBar ul{display:flex}.navBar ul li a{margin:0 30px;color:gray;cursor:pointer}.navBar ul li a:hover{color:#000}.displayImage{width:800px}
